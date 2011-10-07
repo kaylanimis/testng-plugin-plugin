@@ -71,6 +71,7 @@
             <thead>
                <tr>
                   <th class="pane-header">Test Method</th>
+                  <th class="pane-header">Reason</th>
                </tr>
             </thead>
             <tbody>
@@ -79,6 +80,7 @@
                      <td align="left">
                         <a href="${r.fullUrl}">${r.parent.name}.${r.name}</a>
                      </td>
+                     <td align="left">${r.exception.message}</td>
                   </tr>
                </j:forEach>
             </tbody>
