@@ -9,4 +9,7 @@
    <f:entry title="Escape exception messages?" field="escapeExceptionMsg">
        <f:checkbox name="testng.escapeExceptionMsg" default="true" />
    </f:entry>
+   <f:entry title="Mark skipped tests as unstable?" field="skipsAreUnstable">
+       <f:checkbox name="testng.skipsAreUnstable" default="true" />
+   </f:entry>
 </j:jelly>
